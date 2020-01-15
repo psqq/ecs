@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psqq/tools.git"
+  },
   "author": "psqq",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psqq/tools/issues"
+  },
+  "homepage": "https://github.com/psqq/tools#readme"
 }
