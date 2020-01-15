@@ -1,10 +1,10 @@
 {
-  "name": "ecs",
+  "name": "@psqq/ecs",
   "version": "1.0.0",
   "description": "ECS Engine",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require @babel/register ./{src,tests}/**/*.spec.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/psqq/tools/issues"
   },
-  "homepage": "https://github.com/psqq/tools#readme"
+  "homepage": "https://github.com/psqq/tools#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "@types/chai": "^4.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
 }
