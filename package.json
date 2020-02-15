@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/psqq/tools.git"
+    "url": "git+https://github.com/psqq/ecs.git"
   },
   "author": "psqq",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/psqq/tools/issues"
+    "url": "https://github.com/psqq/ecs/issues"
   },
-  "homepage": "https://github.com/psqq/tools#readme",
+  "homepage": "https://github.com/psqq/ecs#readme",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
